@@ -1,0 +1,189 @@
+:root{
+--primari-font:'Roboto'sans-serif;
+--primari-text-color:#2E2F42;
+--secondary-text-color:#434455;
+    --accent-color:rgb(255, 0, 0);
+}
+
+
+
+.body{
+font-family: var(--primari-font);
+color: #E5E5E5;
+}
+
+/* ========HEADER ============*/
+.accent{
+    font-family: 'Raleway'sans-seri;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #4D5AE5;
+}
+
+.logo{
+    font-family: 'Raleway'sans-seri;
+        font-weight: 800;
+        font-size: 18px;
+        line-height:1.16;
+        color:var(--primari-text-color) ;
+        text-decoration: none;
+}   
+.logo:hover,
+.logo:focus,
+.accent:hover,
+.accent:focus{
+color:var(--accent-color);
+
+
+}
+
+/* ========/HEADER ============*/
+/*=========== nav ==============*/
+.list{
+    list-style: none;
+    
+}
+.link{
+    text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color:var(--accent-color);
+             
+}
+
+.mail-link:hover,
+.mail-link:focus{
+    color:var(--accent-color);
+
+}
+
+.tel-link:hover,
+.tel-link:focus{
+ color:var(--accent-color);
+}
+
+.menu-link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+        color:var(--primari-text-color);
+}
+.mail-link{
+
+    font-style: normal;
+   
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+color:var(--secondary-text-color);
+}
+
+.tel-link {
+ 
+    font-style: normal;
+  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+/*===========/ nav ==============*/
+/* =========MAIN===============*/
+
+.subtitles{
+opacity:0;
+}
+
+.button {
+    opacity: 0;
+}
+
+
+.btn-list{
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;    
+        cursor: pointer;
+    letter-spacing: 0.04em;
+      color: #4D5AE5;
+}
+
+
+.btn-list:hover,
+.btn-list:focus
+{
+background: #404BBF;
+color: white;
+}
+
+/* =========/MAIN===============*/
+
+/* =======section====== */
+
+.caption{
+    font-family: var(--primari-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primari-text-color);
+}
+
+.text-img{
+
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+
+}
+/* =======/section====== */
+/* =======footer=========== */
+
+.text-paragreph{
+
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        /* color: #F4F4FD; */
+}
+.hero-title{
+
+    font-family: var(--primari-font);
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+  
+    
+      
+}
+
+.title{
+  opacity: 0;
+}
+
+.text-list{
+    font-family:var(--primari-font);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.title-list{
+font-family: var(--primari-font);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+
+        color: #2E2F42;
+}
