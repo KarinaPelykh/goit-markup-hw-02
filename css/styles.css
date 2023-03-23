@@ -103,23 +103,14 @@ font-style: normal;
 }
 
 .mail-link{
-
+font-style: normal;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--tertiary-text-color)
+    color:#434455
 }
 
-
-.tel-link {
- 
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--tertiary-text-color);
-}
 
 .mail-link:hover,
 .mail-link:focus{
@@ -198,7 +189,7 @@ color: #ffffff;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--tertiary-text-color);
+        color: #434455;
 }
 
  /* /oпис роботи */
@@ -240,13 +231,15 @@ background-color: #F4F4FD;
 }
 
 .heading {
-    font-family: var(--primari-font);
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--primari-text-color)
+    color: #2e2f42
 }
+
+
 
 .text-img{
 
@@ -254,6 +247,16 @@ background-color: #F4F4FD;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+
+}
+
+.desc-img{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 
 }
 
