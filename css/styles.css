@@ -1,9 +1,8 @@
 :root{
---primari-font:"Roboto",sans-serif;
 --primari-text-color:#2E2F42;
 --secondary-text-color:#4d5ae5;
 --primari-background-color:#ffffff;
---tertiary-text-color:#434455;
+
 }
 
 /* скидання маркерів і декору */
@@ -61,26 +60,27 @@ color:#404BBF
 /* список посилань */
 
 
-.menu-item{
+/* .menu-item{
   font-weight:500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--primari-text-color)
-}
+  color:#2E2F42
+} */
 
 .menu-link{
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 
-        color:var(--primari-text-color);
+        color:#2E2F42;
 }
 
 
-.menu-link:hover,
+.menu-link:hover{
+    color: #404BBF
+}
 .menu-link:focus{
 color: #404BBF
              
@@ -95,6 +95,13 @@ color: #404BBF
 list-style:none;
 font-style: normal;
 }
+
+.menu-address{
+
+    font-style: normal;
+    list-style: none;
+}
+
 .mail-link{
 
     font-style: normal;
@@ -146,13 +153,15 @@ font-style: normal;
             color:#ffffff;
         }
         
-.btn-list{background-color: #4D5AE5; 
-          font-family:'Roboto' sans-serif;
-           font-weight: 500;
-         font-size: 16px;
-       line-height: 1.5;
-       letter-spacing: 0.04em; 
-           color: #ffffff;    
+.btn-list{
+        font-family: "Roboto", sans-serif;
+        background-color: #4D5AE5; 
+        font-family:'Roboto' sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em; 
+        color: #ffffff;    
         cursor: pointer;
     }
             
@@ -162,7 +171,6 @@ font-style: normal;
 background: #404BBF;
 color: #ffffff;
 }
-   
   /* /заголовок-кнопка */
          
           
@@ -180,6 +188,9 @@ color: #ffffff;
     line-height: 1.2;
     letter-spacing: 0.02em;
    color: var(--primari-text-color)
+}
+.thumb{
+    background-color: #FFFFFF;
 }
 
 .text-list{
@@ -293,6 +304,27 @@ color:#4D5AE5;
 }
 /*==========/ FOOTER================*/
 
+
+   /* портфоліо заголовок */
+.btn-text{
+font-family: "Roboto", sans-serif;
+    background-color: #F4F4FD;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    cursor: pointer;
+}
+
+         .btn-text:hover,
+         .btn-text:focus {
+             background: #404BBF;
+             color: #ffffff;
+         }
+
+ /* портфоліо заголовок */
 
 
 
