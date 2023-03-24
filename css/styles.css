@@ -141,9 +141,8 @@ font-style: normal;
         }
         
 .btn-list{
-    
+    font-family: "Roboto", sans-serif;
         background-color: #4D5AE5; 
-        font-family:'Roboto' sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -169,12 +168,13 @@ color: #ffffff;
     letter-spacing: 0.02em;
     color: #2E2F42;}
 .caption{
-    font-family: var(--primari-font);
+    font-family:"Roboto",
+        sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-   color: var(--primari-text-color)
+   color: #2e2f42;
 }
 .thumb{
     background-color: #FFFFFF;
@@ -185,7 +185,7 @@ color: #ffffff;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: #2e2f42;
 }
 
  /* /oпис роботи */
@@ -196,13 +196,14 @@ color: #ffffff;
 
 
 .title-list{
-font-family: var(--primari-font);
+font-family: "Roboto",
+    sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
       text-align:center;
-        color:var(--primari-text-color);
+        color:#2e2f42;
         text-transform:capitalize;
         background-color: #ffffff;
 }
