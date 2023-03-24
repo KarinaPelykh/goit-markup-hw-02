@@ -1,10 +1,12 @@
 :root{
---primari-text-color:#2E2F42;
 --secondary-text-color:#4d5ae5;
---primari-background-color:#ffffff;
 
 }
-
+.body{
+font-family: "Roboto",sans-serif;
+color: #434455;
+background-color:#ffffff
+}
 /* скидання маркерів і декору */
 .list{
     list-style: none;
@@ -17,11 +19,7 @@
 }
 /* скидання маркерів і декору */
 
-.body{
-font-family: "Roboto",sans-serif;
-color: #434455;
-background-color:var(--primari-background-color);
-}
+
 
 /* ========HEADER ============*/
 
@@ -58,8 +56,6 @@ color:#404BBF
 
 
 /* список посилань */
-
-
 /* .menu-item{
   font-weight:500;
   font-size: 16px;
@@ -67,7 +63,6 @@ color:#404BBF
   letter-spacing: 0.02em;
   color:#2E2F42
 } */
-
 .menu-link{
         font-weight: 500;
         font-size: 16px;
@@ -133,10 +128,11 @@ font-style: normal;
  /* заголовок-кнопка */
 
 .hero{
-    background-color:var(--primari-text-color);
+    background-color:#2e2f42;
 }
 
 .hero-title {
+
          font-size: 56px;
           line-height: 1.07; 
           text-align:center; 
@@ -145,7 +141,7 @@ font-style: normal;
         }
         
 .btn-list{
-        font-family: "Roboto", sans-serif;
+    
         background-color: #4D5AE5; 
         font-family:'Roboto' sans-serif;
         font-weight: 500;
@@ -219,13 +215,13 @@ background-color: #F4F4FD;
 }
 
 .title-list {
-    font-family: var(--primari-font);
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--primari-text-color);
+    color: #2E2F42;
     text-transform: capitalize;
     background-color: #ffffff;
 }
@@ -260,12 +256,19 @@ color: #434455;
 
 }
 
+.text-subject {
+                     font-family: "Roboto", sans-serif;
+                     font-size: 16px;
+                     line-height: 1.5;
+                     letter-spacing: 0.02em;
+                     color: #ffffff;}
+
 .text-paragreph{
- font-family: var(--primari-font);
+ font-family: "Roboto", sans-serif;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em; 
-         color:var(--primari-background-color); 
+         color: #ffffff; 
 }
 
 /* /oпис роботи зображення */
@@ -327,6 +330,8 @@ font-family: "Roboto", sans-serif;
              color: #ffffff;
          }
 
+
+                 
  /* портфоліо заголовок */
 
 
